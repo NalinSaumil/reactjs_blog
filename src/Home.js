@@ -6,13 +6,8 @@ const Home = () => {
     const [age, setAge] = useState(25); 
 
     const handleClick = () => {
-        if(name === 'mario'){
-            setName('luigi');
-            setAge(30);
-        } else {
-            setName('mario');
-            setAge(25);
-        }
+        setName('luigi');
+        setAge(30);
     };
 
     return (  
