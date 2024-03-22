@@ -120,3 +120,22 @@
     border-radius: 8px;
     cursor: pointer;
 }
+
+/* Not found */
+.not-found {
+    position: relative;
+}
+.not-found a {
+    text-decoration: none;
+    color: #f1356d;
+}
+.not-found svg {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    fill: #f1356d;
+    bottom: auto;
+    left: auto;
+    top: 0px;
+    right: 50px;
+}
